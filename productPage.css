@@ -94,6 +94,23 @@ h1 {
     float: right;
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color:#ffffff;
+}
+
+a:active {
+  color: #ffffff;
+}
 table td{
     width: 420px;
 }
