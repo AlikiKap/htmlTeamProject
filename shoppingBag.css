@@ -105,16 +105,7 @@ div div:nth-child(4){
     float: right;
     margin-right: 50px;
 }
-.footer {
-    width: 100%;
-    height: 130px;
-    background-color: #004998;
 
-}
-
-.socialMedia {
-     color: white;
-}
 /*Navigation*/
 .flex-container {
     display: flex;
@@ -157,4 +148,21 @@ ul {
     border: none;
     cursor: pointer;
     padding: 5px 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 130px;
+    background-color: #004998;
+    color: rgba(255, 255, 255, 0.274);
+    text-align: center;
+}
+
+.footer p {
+    padding: 35px;
+}
+
+.socialMedia {
+  color: white;
+  padding: 5px;
 }
