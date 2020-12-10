@@ -1,71 +1,160 @@
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="shoppingBag.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css"/>
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <div class="flex-container">
-                 <td><a href="productList.html"><img src="https://sun9-2.userapi.com/impg/MAtExGtXaMxM0jVvF6voWp5-rNKYt-frfyYiEw/3m62-y_1VDc.jpg?size=240x222&quality=96&proxy=1&sign=0bf7cd4220be89e1a24249bc34c848cb&type=album"></a></td>
-                 <li><a href="#catalog" class="active">CATALOG</a></li>
-                 <li><a href="#shops">SHOPS</a></li>
-                 <li><a href="delivery">DELIVERY</a></li>
-                 <li><a href="customerservice">CUSTOMER SERVICE</a></li>
-                 <td><button class="icon"><i class="far fa-heart"></i></button></td>
-                 <td><a href="shoppingBag.html"><button class="icon"><i class="fas fa-shopping-basket"></button></i></a></td>
-                 </div>
-            </ul>
-        </nav>
-        <h1>Shopping bag</h1>
-        <p class="p">Free delivery when buy over €100 or pick up at any of our offline shops!</p>
-        <div class="main">
-                <table class="item">
-                    <tr>
-                        <td><img src="https://sun9-66.userapi.com/impg/Z4jD1Q2wfoGdFvTDU-fxOPoBuX5vKsqU7gk-FA/WkWYNd5PYD4.jpg?size=218x166&quality=96&proxy=1&sign=f948a6960e5d8a62741875afed0f0e17"/></td>
-                        <td> Skarlett<div> Gift set of star shaped plates</div></td>
-                            <td class="quantity">x1</td>
-                            <td  class="price">€ 32<br><i class="far fa-trash-alt"></i></td>
-                        </tr>
-                        <tr>
-                            <td><img src="https://sun9-12.userapi.com/impg/wZimx05X0N9l-tcVR1Cti1PgpsQBgsFFq4X0TQ/x6d0Z2byRw0.jpg?size=208x145&quality=96&proxy=1&sign=dc16722d97a96c9c99af1717efc78ba5"/></td>
-                            <td>Black-headed tomtit  <div>Sculpture</div></td>
-                                <td class="quantity">x1</td>
-                                <td  class="price">€ 20<br><i class="far fa-trash-alt"></i></td>
-                        </tr>
-                        <tr>
-                            <td><a href="Tea%20cup%20and%20plate%20_Malevich_.html"><img src="https://sun9-64.userapi.com/impg/wqxjXm9nH5oBNVZaf3mOoUYEEPPKMso9JYB4OA/aYg3docGG70.jpg?size=240x180&quality=96&proxy=1&sign=d85ed4af81d538956c169048266cbe5f"/></a></td>
-                        
-                            <td>Malevich<div> Tea cup and plate 280 ml</div></td>
-                                <td class="quantity">x1</td>
-                                <td  class="price">€ 15<br><i class="far fa-trash-alt"></i></td>
-                         </tr>
-                        <tr>
-                            <td id="Total">Total</td>
-                            <td></td>
-                            <td></td>
-                            <td class="price">€ 67</td>
-                        </tr>
-                </table>
-               
-            <div class="item">
-                <div class="checkout">Skarlett<span class="pricespan">€ 32</span></div>
-                <div class="checkout"> Black-headed tomtit<span class="pricespan">€ 20</span></div>
-                <div class="checkout">Malevich<span class="pricespan">€ 15</span></div>
-                <div>Delivery from €4,90</div>
-                <hr>
-                <div class="checkout">Total<span class="pricespan">€ 67</span></div>
-                <button class="buttonco">Continue to checkout</button>
-            </div>
-        </div>
-    <div class="footer">
-         <p>2020 Authors: Anastasiia Huhtala & Aliki Kapasakalidi<br>
-         <span class="socialMedia"><i class="fab fa-instagram"></i></span>
-         <span class="socialMedia"><i class="fab fa-facebook-square"></i></span>
-         <span class="socialMedia"><i class="fab fa-vk"></i></span></p>
-    </div>
-    </body>
-</html>
+td i{
+    font-size: 24px;
+    color: #014a99;
+    padding-top: 70px;
+}
+h1{
+    font-size: 35px;
+    font-family: "Lato Bold", Lato, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.p{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+.price{
+    font-family: "Lato Italic", Lato, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+.quantity{
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding-bottom: 111px;
+
+}
+#Total{
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+table div{
+    font-weight: 300;
+    padding-bottom: 90px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #d7d7d7;
+}
+
+table td{
+    padding: 20px;
+    font-family: "Lato Bold", "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.item{
+    margin: 7px;
+    margin-top: 30px;
+}
+.item:not(table){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(121, 121, 121);
+    width: 275px;
+    height: 369px;
+    padding: 30px;
+    padding-right: 0px;
+    
+}
+    .buttonco{
+    background-color: #014a99;
+    color: #ffffff;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 167px;
+    height: 45px;
+    border-radius: 4px;
+    margin-left: 35px;
+    margin-right: 75px;
+    cursor: pointer;
+
+}
+.checkout{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+div div:nth-child(4){
+    font-size: 10px;
+    color: #555555;
+}
+.pricespan{
+    font-family: "Lato Bold", "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+    float: right;
+    margin-right: 50px;
+}
+.footer {
+    width: 100%;
+    height: 130px;
+    background-color: #004998;
+
+}
+
+.socialMedia {
+     color: white;
+}
+/*Navigation*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+  }
+
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-bottom: 4px solid #004898;
+  }
+  
+  .active {
+    background-color: #004898;
+    color: white;
+  }
+  /*All icons*/
+.icon {
+    color: #004898;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+}
