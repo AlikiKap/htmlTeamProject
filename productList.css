@@ -111,3 +111,7 @@ ul {
   color: white;
   padding: 5px;
 }
+
+.activee:hover {
+  border-bottom: 4px solid #004898;
+}
