@@ -1,0 +1,107 @@
+
+i{
+    font-size: 24px;
+    color: #014a99;
+    padding-top: 70px;
+}
+h1{
+    font-size: 35px;
+    font-family: "Lato Bold", Lato, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+.price{
+    font-family: "Lato Italic", Lato, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+.quantity{
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    padding-bottom: 111px;
+
+}
+#Total{
+    font-family: Lato-Regular, Lato, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+table div{
+    font-weight: 300;
+    padding-bottom: 90px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid #d7d7d7;
+}
+
+td{
+    padding: 20px;
+    font-family: "Lato Bold", "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.item{
+    margin: 7px;
+    margin-top: 30px;
+}
+.item:not(table){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(121, 121, 121);
+    width: 275px;
+    height: 369px;
+    padding: 30px;
+    padding-right: 0px;
+    
+}
+button{
+    background-color: #014a99;
+    color: #ffffff;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 167px;
+    height: 45px;
+    border-radius: 4px;
+    margin-left: 35px;
+    margin-right: 75px;
+    cursor: pointer;
+
+}
+.checkout{
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+div div:nth-child(4){
+    font-size: 10px;
+    color: #555555;
+}
+span{
+    font-family: "Lato Bold", "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+    float: right;
+    margin-right: 50px;
+}
