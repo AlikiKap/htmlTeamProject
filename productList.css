@@ -1,4 +1,4 @@
-i{
+td i{
     font-size: 30px;
     color: #4e81b8;
     float: right;
@@ -12,6 +12,8 @@ img{
 }
 td{
     padding: 10px 40px;
+    cursor: pointer;
+
 }
 div:first-child{
     font-family: 'Lato', sans-serif;
@@ -28,4 +30,65 @@ tr:nth-child(3),tr:nth-child(6){
     font-weight: 200;
     font-style: italic;
     font-size: 25px;
+}
+
+/*Navigation*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 120px;
+    align-items: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-size: 20px;
+  }
+
+  li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    border-bottom: 4px solid #004898;
+  }
+  
+  .active {
+    background-color: #004898;
+    color: white;
+  }
+  /*All icons*/
+.icon {
+    color: #004898;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 130px;
+    background-color: #004998;
+    color: rgba(255, 255, 255, 0.274);
+    text-align: center;
+}
+
+.footer p {
+    padding: 35px;
+}
+
+.socialMedia {
+  color: white;
+  padding: 5px;
 }
