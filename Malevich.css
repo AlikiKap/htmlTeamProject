@@ -48,9 +48,9 @@ ul {
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 22px;
     font-weight: 300;    
   }
@@ -99,14 +99,43 @@ table td{
     width: 420px;
 }
 
+.characteristics {
+  margin-left: 40px;
+  border: none;
+}
+
+.characteristics th {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.characteristics td {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 8px;
+  width: 250px;
+  
+}
+
+.characteristics tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 .footer {
     width: 100%;
     height: 130px;
     background-color: #004998;
     color: rgba(255, 255, 255, 0.274);
+    text-align: center;
+}
+
+.footer p {
+    padding: 35px;
 }
 
 .socialMedia {
-     color: white;
-     padding: 5px;
+  color: white;
+  padding: 5px;
 }
